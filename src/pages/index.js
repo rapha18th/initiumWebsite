@@ -54,12 +54,6 @@ const IndexPage = ({ data }) => (
       })}
 
     {data.contentfulSiteInformation.menus
-      .filter(item => item === "Photos")
-      .map(t => {
-        return <Photos data={data.contentfulPhotos}></Photos>;
-      })}
-
-    {data.contentfulSiteInformation.menus
       .filter(item => item === "Contact")
       .map(t => {
         return <Contact data={data.contentfulAboutMe.gmail}></Contact>;
