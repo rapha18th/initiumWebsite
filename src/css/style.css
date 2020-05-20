@@ -3,14 +3,14 @@
 img{max-width:100%}
 .site-header{background:#333333b8;position:fixed;top:0;left:0;right:0;z-index:999;padding:20px 0}
 .site-header *{color:#fff}
-a{color:#ef5826}
-h2{font-size:28px;line-height:34px;color:#363636}
+a{color:#4682b4}
+h2{font-size:28px;line-height:34px;color:#4682b4}
 h3{font-size:22px}
 h4{font-size:18px}
 h5{font-size:10px}
 p{font-size:14px}
 .banner{position:relative;height:100vh}
-a:hover{color:#d83d0a;text-decoration:underline}
+a:hover{color:#4682b4;text-decoration:underline}
 .banner .banner-details{position:absolute;top:50%;left:50%;z-index:9;display:flex;justify-content:center;align-items:center;flex-direction:column;transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);-o-transform:translate(-50%,-50%);width:90%;color:#fff}
 .banner img{width:100%;height:100%;-o-object-fit:cover;object-fit:cover}
 body{margin:0;background:#fafafe}
@@ -59,7 +59,7 @@ body{margin:0;background:#fafafe}
 .slick-slider{position:relative}
 .slick-dots li button{font-size:0;line-height:0;display:block;padding:5px;color:transparent;border:0;outline:none;background:black;width:100%;height:100%;cursor:pointer;border-radius:50%}
 .slick-dots li{display:inline-block;position:relative;display:inline-block;margin:0 5px;padding:0;width:10px;height:10px;cursor:pointer}
-.slick-dots li.slick-active button{background:red}
+.slick-dots li.slick-active button{background:#4682b4}
 .testi-inner{display:block!important;width:700px!important;margin:0 auto;padding-bottom:60px;max-width:100%}
 .testi-inner .avatar{display:block;margin:0 auto;margin-bottom:15px;width:100px;height:100px;object-fit:cover;border-radius:100%}
 .testi-inner p{}
