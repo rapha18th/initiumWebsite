@@ -11,13 +11,14 @@ import Work from "../components/work";
 import Blogs from "../components/blogs";
 import Testimonial from "../components/testimonial";
 import Contact from "../components/contact";
-import Photos from "../components/photos";
+//import Photos from "../components/photos";
 
 const IndexPage = ({ data }) => (
   <Layout header="home">
     <SEO
       title={data.contentfulAboutMe.designation}
-      keywords={[`Rohit Gupta`, `Frontend Developer`, `Developer`]}
+      keywords={[`Initium Solutions`, `Software`, `Web and Mobile development`, `technology`, `business`, `marketing`, 'initium zimbabwe', 'Mobile applications', 'Machine Learning', 'Artificial Intelligence Zimbabwe', 'chatbots',
+      `Web design`]}
     />
     <Banner data={data.contentfulAboutMe}></Banner>
 
