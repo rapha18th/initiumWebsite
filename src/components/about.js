@@ -25,6 +25,12 @@ const Header = ({ data }) => (
             />
             <ul className="details">
             </ul>
+            <li>
+                <strong>Email</strong>
+                <p>
+                  <a href={`mailto:${data.gmail}`}>{data.gmail}</a>
+                </p>
+              </li>
             <div className="socials">
               <ul>
                 <li>
