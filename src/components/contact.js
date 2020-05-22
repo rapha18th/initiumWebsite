@@ -3,11 +3,6 @@ import {Smartphone, Mail } from 'react-feather'
 
 import './contact.css'
 
-const dotenv = require("dotenv");
-
-if (process.env.ENVIRONMENT !== "production") {
-  dotenv.config();
-}
 
 const phone3 = '+263773370813';
 const phone4 = '+263777414925';
