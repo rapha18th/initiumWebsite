@@ -4,7 +4,7 @@ if (process.env.ENVIRONMENT !== "production") {
   dotenv.config();
 }
 
-const { spaceId, accessToken } = process.env;
+const { spaceId, accessToken, CONTENTFUL_HOST} = process.env;
 
 module.exports = {
   siteMetadata: {
@@ -25,7 +25,8 @@ module.exports = {
       resolve: "gatsby-source-contentful",
       options: {
         spaceId,
-        accessToken
+        accessToken,
+        CONTENTFUL_HOST
       }
     },
     `gatsby-transformer-sharp`,
