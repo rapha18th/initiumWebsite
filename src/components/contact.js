@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import {Smartphone, Mail, PhoneCall } from 'react-feather'
 
+import './contact.css'
+
 export default class Contact extends Component {
   render() {
     return (
