@@ -1,14 +1,14 @@
  .float{
       position:fixed;
-      width:60px;
-      height:60px;
+      width:65px;
+      height:65px;
       bottom:40px;
       right:40px;
       background-color:#25d366;
       color:#FFF;
-      border-radius:60px;
+      border-radius:40px;
       text-align:center;
-      font-size:50px;
+      font-size:37px;
       
     z-index:100;
   }
