@@ -26,7 +26,7 @@ const Header = ({ data }) => (
             <ul className="details">
             </ul>
             <li>
-                <strong>Email</strong>
+                <strong>Email Us</strong>
                 <p>
                   <a href={`mailto:${data.gmail}`}>{data.gmail}</a>
                 </p>
