@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import {Smartphone, Mail } from 'react-feather'
-
 import './contact.css'
 
 
