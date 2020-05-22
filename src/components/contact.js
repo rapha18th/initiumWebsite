@@ -3,6 +3,11 @@ import {Smartphone, Mail, PhoneCall } from 'react-feather'
 
 import './contact.css'
 
+const phone3 = '+263773370813';
+const phone4 = '+263777414925';
+const email = 'info@initium.co.zw';
+
+
 export default class Contact extends Component {
   render() {
     return (
@@ -11,17 +16,8 @@ export default class Contact extends Component {
           <div className="section-head">
             <h2 className="text-center">Contact</h2>
             <div className="Contact--Details">
-      
-              {phone && (
-                <a className="Contact--Details--Item" href={`tel:${phone}`}>
-                  <PhoneCall /> {phone}
-                </a>
-              )}
-               {phone2 && (
-                <a className="Contact--Details--Item" href={`tel:${phone2}`}>
-                  <Smartphone /> {phone2}
-                </a>
-              )}
+  
+              
                {phone3 && (
                 <a className="Contact--Details--Item" href={`tel:${phone3}`}>
                   <Smartphone /> {phone3}
