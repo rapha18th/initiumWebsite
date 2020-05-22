@@ -3,6 +3,12 @@ import {Smartphone, Mail } from 'react-feather'
 
 import './contact.css'
 
+const dotenv = require("dotenv");
+
+if (process.env.ENVIRONMENT !== "production") {
+  dotenv.config();
+}
+
 const phone3 = '+263773370813';
 const phone4 = '+263777414925';
 const email = 'info@initium.co.zw';
@@ -36,7 +42,7 @@ export default class Contact extends Component {
             </div>
           </div>
           <form
-            action={`https://formspree.io/${this.props.data}`}
+            action={process.env.formspreeID}
             name="contact"
             method="POST"
             data-netlify="true"
