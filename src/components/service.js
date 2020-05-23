@@ -23,7 +23,11 @@ export default class service extends Component {
                         __html: item.node.description.childMarkdownRemark.html
                       }}
                      />
-                      <Smartphone /> {phone3}
+                       {phone3 && (
+                <a className="Contact--Details--Item" href={`tel:${phone3}`}>
+                  <Smartphone /> {phone3}
+                </a>
+              )}
                   </div>
                 </div>
               );
