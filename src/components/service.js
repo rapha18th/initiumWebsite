@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import { Smartphone } from 'react-feather';
+
+const phone3 = '+263773370813';
 
 export default class service extends Component {
   render() {
@@ -19,7 +22,8 @@ export default class service extends Component {
                       dangerouslySetInnerHTML={{
                         __html: item.node.description.childMarkdownRemark.html
                       }}
-                    />
+                     />
+                      <Smartphone /> {phone3}
                   </div>
                 </div>
               );
